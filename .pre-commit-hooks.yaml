@@ -1,0 +1,7 @@
+-   id: check-branch-name
+    name: Checks branch name
+    description: Checks branch name against a regex pattern
+    entry: ./check-branch-name.sh
+    language: script
+    pass_filenames: false
+    always_run: true
